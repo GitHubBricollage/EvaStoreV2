@@ -3,10 +3,11 @@
 :root {
 	--gradient-background: linear-gradient(
 		45deg,
-		#98fb98,
-		#00fa9a,
-		#66cdaa,
-		#48d1cc
+		#1a042c,
+		#231b3f,
+		#2e197c,
+		#2e197c,
+		#2f0642
 	);
 	--shadow-brandname: 0.03em 0.03em #ffee00, -0.03em -0.03em #ff0080,
 		-0.03em 0.03em #dd7cf5, 0.03em -0.03em #00ffc8;
@@ -21,7 +22,7 @@
 
 body {
 	background-image: var(--gradient-background);
-	font-family: unset;
+	font-family: sans-serif;
 }
 
 .grid {
